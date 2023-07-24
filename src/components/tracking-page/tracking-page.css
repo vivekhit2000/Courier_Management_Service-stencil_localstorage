@@ -1,0 +1,106 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 1px;
+}
+
+
+body {
+  background-image: url('../../assets/top-view-truck-boxes.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+
+
+.container {
+  max-width: 800px;
+  margin: 55px 240px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-left: 250px;
+  color: #0a0a06;
+  
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f5e395;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+button:hover {
+  background-color: rgb(57, 52, 52);
+  color: burlywood;
+  text-decoration: underline;
+}
+
+#trackingResult {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* #shipmentDetails {
+  margin-top: 63px;
+  margin-bottom: 10px;
+  margin-left: 400px;
+  
+  background-color: #0a7aa3;
+  padding: 15px 15px;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+} */
+
+
+
+home-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home-button a {
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #f5e395;
+  border: 2px solid grey;
+  border-radius: 15px;
+  color: rgb(32, 34, 36);
+  border-radius: 5px;
+  font-weight: bold;
+}
+.home-button a:hover
+{
+  background-color: rgb(57, 52, 52);
+  color: burlywood;
+  text-decoration: underline;
+} 

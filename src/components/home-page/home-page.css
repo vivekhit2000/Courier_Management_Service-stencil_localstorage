@@ -1,0 +1,159 @@
+ 
+ 
+
+ body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+  }
+  
+ 
+body {
+    background-image: url('../../assets/top-view-truck-boxes.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.contain {
+    /* border: 2px solid white; */
+    margin: 106px 410px;
+    padding: 45px;
+    width: 25%;
+    border-radius: 28px;
+}
+
+.contain h1 {
+    padding: 30px 70px;
+    height: 10px;
+    margin-top: -35px;
+}
+
+.btn {
+    margin: 10px 0px;
+    color: rgb(32, 34, 36);
+    background-color: #7cdbee;
+    padding: 6px 21px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: rgb(57, 52, 52);
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.contain4 {
+    margin: 115px 340px;
+    padding: 45px;
+    width: 36%;
+    border-radius: 28px;
+}
+
+#userData {
+    text-align: center;
+}
+
+.contain4 h1 {
+    text-align: center;
+    font-size: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contain4 button {
+    display: block;
+    width: 50%;
+    margin: 35px auto;
+}
+
+.right4 {
+    position: absolute;
+    right: 34px;
+    top: 29px;
+    display: inline-block;
+}
+
+.left4 {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 25px;
+}
+
+.left4 img {
+    width: 90px;
+    filter: invert(0%);
+}
+
+.left4 div {
+    text-align: center;
+    font-size: 23px;
+    line-height: 19px;
+    margin: -5px 31px;
+}
+
+.navbar4 {
+    display: inline-block;
+    margin: 35px 375px;
+}
+
+.navbar4 li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 9px;
+}
+
+.navbar4 li a {
+    color: rgb(43, 25, 25);
+    text-decoration: none;
+    padding: 10px 4px;
+}
+
+.navbar4 li a:hover {
+    
+    color: rgb(72, 81, 132);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #f2f2f2; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown.active .dropdown-content {
+    display: block;
+}
+
+    
